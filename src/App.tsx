@@ -1,12 +1,5 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React from 'react';
+
 import {
   SafeAreaView,
   StyleSheet,
@@ -24,11 +17,13 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const App: () => React$Node = () => {
+const App = () => {
+
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
+        <Text>whatnot</Text>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
